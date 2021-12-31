@@ -1,7 +1,7 @@
 const valores = [7.7, 8.9, 6.2, 9.3] //Para elaborar uma array coloca colchetes
 console.log(valores[0], valores[3]) //Apenas será mostrado o valor pedido no caso desse exemplo será mostrado o valor 0 e 3
 
-valores[4] = 10 //Adicionei mis um valor na variável
+valores[4] = 10 //Adicionei mais um valor na variável
 console.log(valores)
 
 console.log(valores.length) //Mostra a quantidade de elementos a dentro de uma array
