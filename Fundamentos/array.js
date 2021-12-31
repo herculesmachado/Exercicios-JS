@@ -9,6 +9,8 @@ console.log(valores.length) //Mostra a quantidade de elementos a dentro de uma a
 valores.push({id /*Identificador*/ : 3}, null, false, 'Texto') //Adiciona coisas na array
 console.log(valores)
 
+//OBS: para a saúde do código e de quem esta lendo, é interessante fazer uma array para cada tipo de coisas, pois nao é legal misturar String, com números, com booleano, pois fica difícil e feio o código
+
 console.log(valores.pop()) //retira o ultimo objeto da array
 
 delete valores[0] //Delete um objeto da array
@@ -16,4 +18,3 @@ console.log(valores)
 
 console.log(typeof valores) //Mostra o tipo da array
 
-//OBS: para a saúde do código e de quem esta lendo, é interessante fazer uma array para cada tipo de coisas, pois nao é legal misturar String, com números, com booleano, pois fica difícil e feio o código
