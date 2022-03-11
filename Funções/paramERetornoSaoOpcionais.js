@@ -13,4 +13,4 @@ console.log(area())
 console.log(area(2, 4, 5, 7, 8))
 console.log(area(5, 5))
 
-//Usar esse tipo de recurso com sabedoria, e nao se encaixa em todos os casos
+// Usar esse tipo de recurso com sabedoria, e nao se encaixa em todos os casos
