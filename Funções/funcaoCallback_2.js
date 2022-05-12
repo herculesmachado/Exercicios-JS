@@ -1,5 +1,5 @@
 //Essa forma de fazer é muito mais trabalhoso
-const notas = [1.2,  2.4, 7.6, 8.6,  4.7, 7.,8]
+const notas = [1.2,  2.4, 7.6, 8.6,  4.7, 7.8, 3.0, 10]
 
 //Sem callback
 const notasBaixar1 = []
@@ -12,7 +12,7 @@ console.log(notasBaixar1)
 
 //Com callback
 
-//Pode-se fazer desse jeito
+//Pode-se fazer desse jeito, o elemento filter não altera o bloco (notas) porém será filtrada apenas as coisas que queremos
 const notasBaixar2 = notas.filter(function(notas){
     return notas < 7
 })
@@ -25,7 +25,6 @@ const notasBaixar3 = notas.filter(notasMenorQue7)
 console.log(notasBaixar3)
 
 
-//Aqui eu to chamando da mesma forma so que as notas maiores
-const notasMaiorQue7 = notas => notas > 7
-const notasMaiores = notas.filter(notasMaiorQue7)
+//Esse jeito tem menos linhas, porém quando for outra vez (notas => notas > 7) irá ter que reescrever ao invés de apenas chamar a variavel, mas fica a critério
+const notasMaiores = notas.filter(notas => notas > 7)
 console.log(notasMaiores)
