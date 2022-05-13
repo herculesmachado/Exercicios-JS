@@ -24,7 +24,7 @@ const notasMenorQue7 = notas => notas < 7
 const notasBaixar3 = notas.filter(notasMenorQue7)
 console.log(notasBaixar3)
 
-
-//Esse jeito tem menos linhas, porém quando for outra vez (notas => notas > 7) irá ter que reescrever ao invés de apenas chamar a variavel, mas fica a critério
+//Esse jeito tem menos linhas, porém quando for outra vez (notas => notas > 7) irá ter que reescrever ao invés de apenas chamar a variavel, mas fica a critério 
 const notasMaiores = notas.filter(notas => notas > 7)
 console.log(notasMaiores)
+ 
