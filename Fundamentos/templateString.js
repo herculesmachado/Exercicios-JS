@@ -12,3 +12,6 @@ console.log(template) //Jeito com template, mais atual e mais usual pois deixa o
 
 console.log(`1 + 1 = ${1 + 1}!`) //Posso fazer soma apenas colocando entre chaves
 
+
+const up = texto => texto.toUpperCase() // Uma função que gera um texto em caixa grande
+console.log(`Ei...${up('cuidado')}`) 
