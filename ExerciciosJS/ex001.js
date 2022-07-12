@@ -6,3 +6,5 @@ function calc(nota1, nota2) {
 }
 
 calc(190, 32)
+
+//Exercício concluído
