@@ -2,6 +2,7 @@ console.log(Math.floor(6.1))
 
 const obj1 = {}
 obj1.nome = 'bola' //Nesse exemplo posso criar uma constante e incrementar, ou seja, criar um atributo ponto
+//obj1['nome'] = 'bola2'
  console.log(obj1.nome)
 
  function Obj(nome) {
