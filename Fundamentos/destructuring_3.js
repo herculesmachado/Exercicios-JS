@@ -1,4 +1,4 @@
-function rand({min = 0, max = 100}) {
+function rand({min = 0, max = 100}) { //Nesta função eu to criando um rand que vai me da um numero aleatorio de 0 a 100
     const valor = Math.random() * (max - min) + min
     return Math.floor(valor)
 }
