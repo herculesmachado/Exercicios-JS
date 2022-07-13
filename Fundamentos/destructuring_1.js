@@ -1,5 +1,7 @@
 // novo recurso do ES2015
 
+//É uma operador de destruturação...
+
 const pessoa = {
     nome: 'Ana',
     idade: 24,
