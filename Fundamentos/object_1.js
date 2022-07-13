@@ -1,4 +1,4 @@
-const v1 = {}
+const v1 = {} //Um par de chaves é uma objeto
 v1.nome = 'celular'
 v1.valor = 93.50
 v1 ['DESCONTO MASSA'] = 0.04  // evitar atribuir com espaços

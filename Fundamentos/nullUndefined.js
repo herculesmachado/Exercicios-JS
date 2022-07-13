@@ -6,7 +6,7 @@ console.log(valor)
 // console.log(valor.toString()) //Erro!
 
 const produto = {}
-console.log(produto.preco) //Vai mostrar UNDEFINED pois no atribuir valor a variável (preco)
+console.log(produto.preco) //Vai mostrar UNDEFINED pois não atribuir valor a variável (preço)
 
 console.log(produto) //Valor será chaves
 
@@ -14,7 +14,7 @@ produto.preco = 3.54 //Como é um object posso atribuir valor fora da sua inicia
 console.log(produto.preco)
 
 produto.preco = undefined //Evitar atribuir undefined
-// delete produto.preco 
+// delete produto.preco // Se eu quiser excluir algo, usar dessa forma
 console.log(!!produto.preco) //valor booleano
 console.log(produto)
 
