@@ -5,7 +5,7 @@ const numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for (x in numero) {
     if (x == 5) { 
         break // O break não age no bloco IF, mas sim no bloco mais proximo a ele do tipo for/while/switch
-                 // Nesse caso ele vai desviar a aplicação para fora do bloco, não pra fora do if, mas sim no bloco mais perto dele que neste caso é o for
+                 // Nesse caso ele vai desviar a aplicação para fora do laço corrente, não pra fora do if, mas sim no bloco mais perto dele que neste caso é o for
     }
     console.log(`${x} = ${numero[x]}`)
 }

@@ -8,7 +8,7 @@ function getImprimirResultado (min, max) {
 let opcao = 0
 
 do {
-    opcao = getImprimirResultado (-1, 10)
+    opcao = getImprimirResultado (-1, 5)
     console.log(`Melhor opção é ${opcao}.`)
 } while (opcao != -1)
 

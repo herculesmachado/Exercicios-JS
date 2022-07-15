@@ -1,4 +1,4 @@
-function situacao (nota) {
+const imprimirResultado = function (nota) {
     if (nota >= 7)  {
         console.log('Aprovado')
     } else {
@@ -7,6 +7,6 @@ function situacao (nota) {
 }
 
 
-situacao(8)
-situacao(6.9)
-situacao('Epa!') // cuidado não pode ocorrer isso!!
+imprimirResultado(8)
+imprimirResultado(6.9)
+imprimirResultado('Epa!') // cuidado não pode ocorrer isso!!

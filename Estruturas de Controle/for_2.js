@@ -2,7 +2,7 @@ const notas = [0.1, 3.4, 43.6, 43.1, 3.3]
 
 //Estrutura usada com IN (ele nao vai te dá nota em si, ele vai te dá o índice de uma array)
 for   ( let i in notas) {
-    console.log(i, notas[i])
+    console.log(i, notas[i]) //Para acessar os indices, tem que acessar a array aqui (nota[i])
 }
 
 //Estrutura usada com OBJETO

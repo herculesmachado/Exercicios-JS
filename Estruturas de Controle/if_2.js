@@ -9,9 +9,9 @@
  test1(9)
 
  function test2 (num) {
-     if (num > 7); { // cuidado com o ";", não usar com as estruturas de controle
-         console.log(num)
-     }
+    if (num > 7); { // cuidado com o ";", não usar com as estruturas de controle
+        console.log(num)
+    }
  }
 
  test2(6)
