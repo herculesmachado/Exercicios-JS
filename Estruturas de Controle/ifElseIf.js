@@ -28,3 +28,5 @@ imprimirResultado(6)
 imprimirResultado(2)
 imprimirResultado(-1)
 imprimirResultado(11)
+
+imprimirResultado(6.9)

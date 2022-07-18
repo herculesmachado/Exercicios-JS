@@ -23,6 +23,6 @@ const imprimirResultado = function (nota) {
 //Em JS o switch é um pouco limitado pois nao pode por numero float, ou seja, numero quebrado 
 
 imprimirResultado(10)
-imprimirResultado(4.77)
+imprimirResultado(6.1)
 imprimirResultado(-1)
 imprimirResultado(11)
