@@ -1,7 +1,7 @@
 const pessoa = {
     saudacao: 'Bom dia',
     falar() {
-        console.log(this.saudacao)
+        console.log(this.saudacao) //Sem o uso do This não tem como acessar a variavel 'saudação'
     }
 }
 
